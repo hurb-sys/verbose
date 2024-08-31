@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>우정훈의 멋진 홈페이지</title>
+    <style type="text/css">
+        body {
+            background-color: #FFCC99;
+            color: #000000;
+            font-family: "Comic Sans MS", sans-serif;
+        }
+        h1 {
+            color: #FFFFFF;
+            background-color: #FF0000;
+            text-align: center;
+            padding: 20px;
+            font-size: 48px;
+            border: 5px solid #00FF00;
+            text-shadow: 2px 2px #0000FF;
+        }
+        h2 {
+            color: #FFFF00;
+            background-color: #0000FF;
+            padding: 10px;
+            border: 5px dotted #FF00FF;
+            font-size: 28px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 20px;
+            background-color: #FFFF00;
+            padding: 10px;
+            border: 3px double #FF0000;
+        }
+        .blinking {
+            color: #FF0000;
+            font-weight: bold;
+            animation: blinker 1s step-start infinite;
+        }
+        @keyframes blinker {
+            50% { opacity: 0; }
+        }
+        .marquee {
+            color: #0000FF;
+            background-color: #00FF00;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px;
+            border: 3px solid #FF00FF;
+            width: 80%;
+            margin: 20px auto;
+        }
+        .glitter {
+            color: #FF00FF;
+            font-size: 32px;
+            font-weight: bold;
+            animation: glitter 1.5s linear infinite;
+        }
+        @keyframes glitter {
+            0% { color: #FF00FF; }
+            50% { color: #00FFFF; }
+            100% { color: #FF00FF; }
+        }
+        a {
+            color: #00FF00;
+            background-color: #0000FF;
+            text-decoration: none;
+            padding: 5px;
+            border: 3px inset #FFFF00;
+        }
+        a:hover {
+            text-decoration: underline;
+            border: 3px outset #FFFF00;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>우정훈의 멋진 홈페이지</h1>
+
+    <marquee behavior="scroll" direction="right" scrollamount="10" class="marquee">
+        <img src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif" alt="Welcome" width="50"> 안녕하세요! 우정훈의 홈페이지에 오신 것을 환영합니다! <img src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif" alt="Welcome" width="50">
+    </marquee>
+
+    <!-- 가상의 플래시 애니메이션 영역 -->
+    <center>
+        <embed src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif" width="400" height="300" quality="high" loop="true" />
+    </center>
+
+    <h2>기본 정보</h2>
+    <p>안녕하세요! 저는 <span class="blinking">우정훈</span>입니다. 해운대초등학교에 다니고 있으며, 현재 11살입니다. 코딩에 관심이 많아 지니 코딩 학원에 다니고 있습니다.</p>
+
+    <h2>취미</h2>
+    <p>제 취미는 <b>코딩</b>, <b>게임</b>, 그리고 <b>책 읽기</b>입니다. 특히 게임을 통해 문제 해결 능력을 키우는 것을 좋아합니다.</p>
+
+    <h2>꿈</h2>
+    <p class="glitter">제 꿈은 나중에 유명한 프로그래머가 되는 것입니다. 다양한 프로그램과 게임을 만들고, 사람들이 편리하게 사용할 수 있는 소프트웨어를 개발하고 싶습니다.</p>
+
+    <h2>좋아하는 것들</h2>
+    <ul>
+        <li>좋아하는 음식: <font color="#FF00FF">피자</font></li>
+        <li>좋아하는 색깔: <font color="#0000FF">파란색</font></li>
+        <li>좋아하는 게임: <font color="#FF0000">마인크래프트</font></li>
+    </ul>
+
+    <hr>
+
+    <center>
+        <a href="#top">맨 위로 이동</a> | <a href="mailto:woojunghoon@example.com">이메일 보내기</a>
+        <p>&copy; 2024 우정훈의 멋진 홈페이지</p>
+    </center>
+
+</body>
+</html>
